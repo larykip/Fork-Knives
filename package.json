@@ -15,6 +15,9 @@
   "author": "Hillary Kiprotich",
   "license": "ISC",
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.5",
+    "babel-preset-env": "^1.7.0",
     "webpack": "^4.2.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.9.3"
@@ -22,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/larykip/Fork-Knives/issues"
   },
-  "homepage": "https://github.com/larykip/Fork-Knives#readme"
+  "homepage": "https://github.com/larykip/Fork-Knives#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
 }
